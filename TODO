@@ -1,0 +1,11 @@
+!!! 0. How visiting probabilities of MERW are related to node degrees? Hypothesis : trivial ( it's just the same power law ). Plot ( node_degree, visiting_freq ) for 2-MERW and GERW. 
+By 2-MERW we mean MERW, approximated by friends-of-friends degree distributions.
+
+1. How probabilities to stay in same community change with increase of mu ( noise parameter ) ( for GERW and MERW )?
+
+2. Insert a couple of nodes with very BIG degree ( i.e. not probable when nodes degrees are drawn from the power law with given exponent ) and study : what happens with MERW trace when it "senses" such a big guy? Can we cast these anomalies as usual "imperfections", that typically cause MERW to cluster in Lifshitz region?
+
+3. If imperfection is a clique ( implanted in power-law graph ), what happens with MERW near the border ( when we vary the ratio of clique volume/graph volume )?
+4. Are nodes with large degrees are indeed attractors of MERW ( by definition )? If so, could this fact be directly used to find communities usin MERW ( starting from most attracting node )?
+
+5. Consider conditional dependence of a nodes under MERW trace. If MERW tends to stay longer in communities, then sufficiently short MERW traces should contain most nodes from single community
